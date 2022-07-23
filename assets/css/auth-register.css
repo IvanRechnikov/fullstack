@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    background: #1a1a1a;
+}
+
+input {
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    background: #292929;
+    padding-left: 15px
+}
+
+input, input::placeholder {
+    font-size: 20px;
+}
+
+input:active, input:hover, input:focus {
+    outline: 0;
+}
+
+input::placeholder {
+    color: rgb(167, 167, 167);
+}

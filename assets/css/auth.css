@@ -1,0 +1,89 @@
+body {
+    font-family: 'Mukta';
+}
+
+.auth {
+    border: 15px solid black;
+    border-radius: 40px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin: auto;
+}
+
+.header > h1 {
+    font-size: 55px;
+}
+
+span {
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.password, .login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login, .password {
+    margin: auto;
+}
+
+.password {
+    margin-top: 20px;
+}
+
+.login span, .password span {
+    margin: auto;
+}
+
+#email, #password {
+    width: 400px;
+    height: 60px;
+}
+
+.button-submit {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.button-submit > button {
+    background: rgb(243, 117, 7);
+    border-radius: 28px;
+    border: none;
+    padding: 20px 100px 20px 100px;
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Mukta';
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+.button-submit > button:hover { 
+    background: rgb(179, 90, 13);;
+}
+
+.to-register {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.to-register a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.to-auth a:hover, .to-auth a:active {
+    text-decoration: none;
+    color: #fff;
+}

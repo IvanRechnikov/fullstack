@@ -1,0 +1,130 @@
+body {
+    font-family: 'Mukta';
+}
+
+.register {
+    border: 15px solid black;
+    border-radius: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.header {
+    margin: auto;
+}
+
+.header > h1 {
+    font-size: 55px;
+}
+
+.blocks {
+    display: flex;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.email-input {
+    /* margin-top: 50px; */
+}
+
+.password-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.fio-input {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.first-name {
+    margin-top: 20px;
+}
+
+.second-name {
+    margin-top: 20px;
+}
+
+.last-name {
+
+}
+
+#firstName, #secondName, #lastName {
+    text-transform: capitalize;
+    width: 200px;
+    height: 50px;
+}
+
+#firstName {
+
+}
+
+#secondName {
+    
+}
+
+#lastName {
+
+}
+
+#email, #password, #confirm-password {
+    width: 250px;
+    height: 50px;
+}
+
+.password-input > span {
+    margin-top: 20px;
+}
+
+#password, #confirm-password {
+
+}
+
+.button-submit > button {
+    background: rgb(243, 117, 7);
+    border-radius: 28px;
+    border: none;
+    padding: 20px 40px 20px 40px;
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Mukta';
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    margin: 50px 0 5px 226px;
+    cursor: pointer;
+}
+
+.button-submit > button:hover { 
+    background: rgb(179, 90, 13);;
+}
+
+.to-auth {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.to-auth a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.to-auth a:hover, .to-auth a:active {
+    text-decoration: none;
+    color: #fff;
+}
